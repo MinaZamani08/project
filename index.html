@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mina's Movie Theater</title>
+    <!-- Linking Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <!-- Linking external CSS -->
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header>
+        <h1 class="cinema-title">🎥 Welcome to Mina's Movie Theater 🎥</h1>
+    </header>
+    <section class="movie-screen">
+        <!-- Video trailer -->
+        <video controls autoplay muted>
+            <source src="media/trailer.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+    <section class="extras">
+        <h2>✨ Featured Movies ✨</h2>
+        <ul>
+            <li>🎬 Inception</li>
+            <li>🎬 Spirited Away</li>
+            <li>🎬 Interstellar</li>
+        </ul>
+    </section>
+    <footer>
+        <button onclick="alert('Hope you enjoyed the show!')">Rate Movie</button>
+        <button onclick="location.reload()">Play Again</button>
+    </footer>
+</body>
+</html>
